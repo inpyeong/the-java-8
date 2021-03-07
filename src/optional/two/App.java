@@ -1,7 +1,7 @@
-package Optional.two;
+package optional.two;
 
-import Optional.one.OnlineClass;
-import Optional.one.Progress;
+import optional.one.OnlineClass;
+import optional.one.Progress;
 
 import java.util.ArrayList;
 import java.util.List;
