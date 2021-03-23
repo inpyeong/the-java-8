@@ -45,8 +45,8 @@ public class Foo {
             System.out.println(i + baseNumber);
         };
 
-        // final이 아니게 되여서 람다에서 참조할 수 없게 된다.
-        // baseNumber++;
+//         final이 아니게 되여서 람다에서 참조할 수 없게 된다.
+//         baseNumber++;
 
         LocalClass localClass = new LocalClass();
         localClass.printBaseNumber();
