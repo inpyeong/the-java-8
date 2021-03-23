@@ -33,10 +33,9 @@ public class App {
 
         ScheduledExecutorService executorService2 = Executors.newSingleThreadScheduledExecutor();
         executorService2.scheduleAtFixedRate(getRunnable("Hello"), 1, 2, TimeUnit.SECONDS);
-        
+
     }
 
-    @org.jetbrains.annotations.NotNull
     private static Runnable getRunnable(String message) {
         return () -> System.out.println(message + Thread.currentThread().getName());
     }
