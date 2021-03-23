@@ -6,9 +6,9 @@ import java.util.concurrent.*;
 
 public class App {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-//        example1();
+        example1();
 
-        example2();
+//        example2();
     }
 
     private static void example2() throws InterruptedException, ExecutionException {
